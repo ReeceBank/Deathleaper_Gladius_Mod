@@ -1,0 +1,50 @@
+
+Deathleaper ability ideas
+stats vs lictor:
++2 wounds (hp per model) (6)
++1 attacks (number of attacks) (4)
++1 leadership (morale) (10)
+
+superior chamelionic skin, better against ranged than lictor
++bonus in cover unlike lictor
+-------------
+HIDDEN HUNTER (passive) (scout)
+
++1/2/3 Vision
++33%/66%/100% Morale
+
+"A Lictor's primary purpose is to lead the Tyranid swarm to fresh prey and seek out large groups of 
+foes that might be hiding or fleeing before the swarm"
+
+-------------
+MIND EATER (passive) (support)
+
++6/12/18 research ON KILL
+
+"Feeder tendrils drain the victim’s skull, siphoning vital knowledge and memories with every scrap 
+of brain matter."
+-------------
+SURPRISE AMBUSH (passive) (hunter)
+
++2/4/6 accuracy on overwatch
++2/4/6 armor pierce on overwatch
+
+
+"A natural predator, the Lictor is patient and stealthy and can move past even the most alert foes, 
+or spend days hiding immobile, waiting for a chance to strike once its prey's guard is down."
+
+-------------
+ITS AFTER ME! (ult) (hunter/support)
+WIP
+-6 accuracy (50%?)
+-10 morale
+
+3 turns debuff?
+free action?
+long cooldown. (10?)
+
+"It's there, I know it is, lurking in the shadows, stalking me like an animal. It's death itself I tell you, 
+just watching me, waiting… Oh blessed Emperor, why won't it just kill me?"
+— The ravings of Cardinal Salem
+
+
