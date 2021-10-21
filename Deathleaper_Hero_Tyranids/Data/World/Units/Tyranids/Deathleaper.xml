@@ -7,7 +7,7 @@
 				idleAnimationCount="3"
 				idleContinuously="1"
 				normalWeight="0.1"
-				scale="1 1 1"
+				scale="1.1 1.1 1.1" <!-- Adjusted scale -->
 				bloodBone="Bone001"
 				walker="1"/>
 	</model>
@@ -35,11 +35,11 @@
 				<armor base="4"/> <!-- %armor base armor=5+ -->
 				<biomassUpkeep base="4.0"/> <!-- %biomassUpkeep base tier=8 factor=1 -->
 				<biomassCost base="80.0"/> <!-- %biomassCost base tier=8 factor=1 -->
-				<hitpointsMax base="4.0"/> <!-- %hitpointsMax base toughness=4 wounds=3 --> <!-- Converted Hp to 4 (from 3*3) -->
+				<hitpointsMax base="5.0"/> <!-- %hitpointsMax base toughness=4 wounds=3+1 --> <!-- Converted Hp to 5 (from 3*3) -->
 				<meleeAccuracy base="12"/> <!-- %meleeAccuracy base weaponSkill=6 -->
-				<meleeAttacks base="2"/>
+				<meleeAttacks base="3"/> <!-- Deathleaper has higher A than lictor +1 -->
 				<strengthDamage base="3"/> <!-- %strengthDamage base strength=6 -->
-				<moraleMax base="12"/> <!-- %moraleMax base leadership=9 -->
+				<moraleMax base="12"/> <!-- %moraleMax base leadership=10, compensated with skill-->
 				<movementMax base="3"/> 
 				<productionCost base="48.0"/> <!-- %productionCost base tier=8 factor=1 -->
 				<rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
@@ -49,7 +49,7 @@
 	<strategyModifiers>
 		<modifier>
 			<effects>
-				<increaseInfantryScore base="1.0"/>
+				<increaseHeroesScore base="1.0"/> <!-- Is hero now, not infantry -->
 			</effects>
 		</modifier>
 	</strategyModifiers>
@@ -183,6 +183,7 @@
 		<trait name="Infiltrate"/>
 		<trait name="Tyranids/InstinctiveBehaviour"/>
 		<trait name="MoveThroughCover"/>
-		<trait name="Stealth"/>
+		<trait name="Stealth"/> <!-- Maybe create superior stealth? -->
+		<trait name="Hero"/>  <!-- Is hero now, not infantry -->
 	</traits>
 </unit>
