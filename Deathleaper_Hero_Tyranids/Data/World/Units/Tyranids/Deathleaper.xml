@@ -89,6 +89,71 @@
 						soundCount="4"/>
 			</model>
 		</move>
+		<!-- Hidden hunter ability -->
+		<genericUnitAbility name="Tyranids/HiddenHunter" 
+				passive="1"
+				rank="-1"
+				rankMax="2">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="Tyranids/HiddenHunter"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+		<!-- Suprise ambush ability -->
+		<genericUnitAbility name="Tyranids/SupriseAmbush" 
+				passive="1"
+				rank="-1"
+				rankMax="2">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="Tyranids/SupriseAmbush"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+		<!-- Mind eater ability -->
+		<genericUnitAbility name="Tyranids/MindEater" 
+				passive="1"
+				rank="-1"
+				rankMax="2">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="Tyranids/MindEater"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+		<!-- Ult ability -->
+		
 		<auraOfFear passive="1">
 			<beginTargets>
 				<selfTarget>
