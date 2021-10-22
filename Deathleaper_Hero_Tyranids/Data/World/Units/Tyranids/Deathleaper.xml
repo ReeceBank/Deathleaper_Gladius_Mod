@@ -94,7 +94,26 @@
 			</model>
 		</move>
 		<!-- Hidden hunter ability -->
-		
+		<genericUnitAbility name="Tyranids/HiddenHunter" 
+				passive="1"
+				rank="-1"
+				rankMax="2">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="Tyranids/HiddenHunter"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
 		<!-- Suprise ambush ability -->
 		
 		<!-- Mind eater ability -->
