@@ -9,4 +9,7 @@
 	<entry name="Tyranids/SupriseAmbush" value="Suprise Ambush"/>
 	<entry name="Tyranids/SupriseAmbushDescription" value="Increases the accuracy and armor penatration of overwatch attacks."/>
 	<entry name="Tyranids/SupriseAmbushFlavor" value="A master assassin, the Deathleaper can spend days hiding immobile, waiting for a chance to strike once its prey's guard is down."/>
+	<entry name="Tyranids/ItsAfterMe" value="Its After Me!"/>
+	<entry name="Tyranids/ItsAfterMeDescription" value="Shatters an enemies morale and lowers their accuracy."/>
+	<entry name="Tyranids/ItsAfterMeFlavor" value="It's there, I know it is, lurking in the shadows, stalking me like an animal. It's death itself I tell you, just watching me, waiting… Oh blessed Emperor, why won't it just kill me?— The ravings of Cardinal Salem"/>
 </language>
