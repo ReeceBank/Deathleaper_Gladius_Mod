@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Debuff" icon="Actions/Tyranids/IndescribableHorror">
+	<modifiers>
+		<modifier>
+			<effects>
+				<accuracy mul="-0.5"/>
+				<morale add="-12"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

@@ -160,7 +160,40 @@
 			</beginTargets>
 		</genericUnitAbility>
 		<!-- Ult ability -->
-		
+		<genericUnitAbility icon="Actions/Eldar/MindWar"
+				name="Tyranids/ItsAfterMe"
+				consumedActionPoints="0"
+				consumedMovement="0"
+				cooldown="12"
+				elite="1"
+				name="Tyranids/ExploitWeaknesses"
+				rank="-1"
+				rankMax="0"
+				requiredActionPoints="0">
+			<model>
+				<action sound="Actions/HiveMindEliteDebuff"/>
+			</model>
+			<beginTargets>
+				<target rangeMax="3">
+					<conditions>
+						<unit>
+							<enemy/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="Tyranids/ItsAfterMe" duration="3"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</genericUnitAbility>
 		<auraOfFear passive="1">
 			<beginTargets>
 				<selfTarget>
