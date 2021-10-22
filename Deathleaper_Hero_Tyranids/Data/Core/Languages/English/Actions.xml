@@ -9,7 +9,4 @@
 	<entry name="SupriseAmbush" value="Suprise Ambush"/>
 	<entry name="SupriseAmbushDescription" value="Increases the accuracy and armor penatration of overwatch attacks."/>
 	<entry name="SupriseAmbushFlavor" value="A master assassin, the Deathleaper can spend days hiding immobile, waiting for a chance to strike once its prey's guard is down."/>
-	<entry name="Tyranids/Deathleaper" value="Deathleaper"/>
-	<entry name="Tyranids/DeathleaperDescription" value="A master assassin that specialises in ambush, reconnaissance, and terror"/>
-	<entry name="Tyranids/DeathleaperFlavor" value="The Deathleaper was created as Hive Fleet Leviathan's ultimate assassin, but it is much more than that. The Deathleaper is a terror weapon, one created to utterly undermine the enemy's morale and break their will to oppose the swarm. With strong instincts and a relentless skill it is a monstrous predator that toys with its prey."/>
 </language>
