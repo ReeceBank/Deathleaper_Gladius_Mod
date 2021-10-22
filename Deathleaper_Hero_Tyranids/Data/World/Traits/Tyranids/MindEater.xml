@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" icon="Attributes/Research" rankMax="2"> <!-- SitW closest to an eye icon i can find -->
+	<modifiers>
+		<modifier>
+			<effects>
+				<researchPerExperience addMin="4" addMax="12"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

@@ -94,7 +94,8 @@
 			</model>
 		</move>
 		<!-- Hidden hunter ability -->
-		<genericUnitAbility name="Tyranids/HiddenHunter" 
+		<genericUnitAbility icon="Actions/SciersGaze"
+				name="Tyranids/HiddenHunter" 
 				passive="1"
 				rank="-1"
 				rankMax="2">
@@ -115,7 +116,8 @@
 			</beginTargets>
 		</genericUnitAbility>
 		<!-- Suprise ambush ability -->
-		<genericUnitAbility name="Tyranids/SupriseAmbush" 
+		<genericUnitAbility icon="Traits/Tyranids/MeleeDamage"
+				name="Tyranids/SupriseAmbush" 
 				passive="1"
 				rank="-1"
 				rankMax="2">
@@ -136,7 +138,27 @@
 			</beginTargets>
 		</genericUnitAbility>
 		<!-- Mind eater ability -->
-		
+		<genericUnitAbility icon="Traits/Tyranids/PreyAdaptation"
+				name="Tyranids/MindEater" 
+				passive="1"
+				rank="-1"
+				rankMax="2">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="Tyranids/MindEater"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
 		<!-- Ult ability -->
 		
 		<auraOfFear passive="1">
