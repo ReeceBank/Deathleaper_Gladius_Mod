@@ -2,13 +2,9 @@
 <trait category="Buff" icon="Actions/Tyranids/ShadowInTheWarp" rankMax="2"> <!-- SitW closest to an eye icon i can find -->
 	<modifiers>
 		<modifier>
-			<conditions>
-				<unit>
-					<overwatching/>
-				</unit>
-			</conditions>
 			<effects>
-				<accuracy addMin="2" addMax="6"/>
+				<sight addMin="1" addMax="3"/>
+				<moraleMax mulMin="0.35" mulMax="1.0"/>
 			</effects>
 		</modifier>
 	</modifiers>
