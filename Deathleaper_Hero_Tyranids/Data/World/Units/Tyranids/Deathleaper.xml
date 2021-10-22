@@ -223,6 +223,8 @@
 			</beginTargets>
 		</instinctiveBehaviourOverride>
 		<subterraneanAssault name="Tyranids/SubterraneanAssault"/>
+		<levelUp/>
+		<shop/>
 	</actions>
 	<traits>
 		<trait name="Tyranids/ChameleonicSkin"/>
