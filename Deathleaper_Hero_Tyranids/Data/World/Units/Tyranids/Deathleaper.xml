@@ -166,7 +166,6 @@
 				consumedMovement="0"
 				cooldown="12"
 				elite="1"
-				name="Tyranids/ExploitWeaknesses"
 				rank="-1"
 				rankMax="0"
 				requiredActionPoints="0">
