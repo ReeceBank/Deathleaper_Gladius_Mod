@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" icon="Actions/DogmaAstrates" rankMax="2"> <!-- change icon later -->
+<trait category="Buff" icon="Actions/Tyranids/AdaptiveBiology" rankMax="2">
 	<modifiers>
 		<modifier>
+			<conditions>
+				<unit>
+					<damagedThisTurn/>
+				</unit>
+			</conditions>
 			<effects>
-				<researchPerKillValue addMin="4" addMax="12"/>
+				<feelNoPainDamageReduction addMin="0.15" addMax="0.45"/>
 			</effects>
 		</modifier>
 	</modifiers>
