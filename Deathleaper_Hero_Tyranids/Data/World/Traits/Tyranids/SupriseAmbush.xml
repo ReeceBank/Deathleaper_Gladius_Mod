@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" rankMax="2">
+<trait category="Buff" icon="Traits/Tyranids/MeleeDamage" rankMax="2">
 	<modifiers>
 		<modifier>
 			<conditions>
@@ -8,8 +8,8 @@
 				</unit>
 			</conditions>
 			<effects>
-				<accuracy addMin="1" addMax="3"/>
-				<armorPenetration addMin="1" addMax="3"/>
+				<accuracy addMin="3" addMax="9"/>
+				<armorPenetration addMin="3" addMax="9"/>
 			</effects>
 		</modifier>
 	</modifiers>
