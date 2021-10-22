@@ -34,14 +34,14 @@
 			<effects>				
 				<armor base="4"/> <!-- %armor base armor=5+ -->
 				<biomassUpkeep base="4.0"/> <!-- %biomassUpkeep base tier=8 factor=1 -->
-				<biomassCost base="80.0"/> <!-- %biomassCost base tier=8 factor=1 -->
-				<hitpointsMax base="5.0"/> <!-- %hitpointsMax base toughness=4 wounds=3+1 --> <!-- Converted Hp to 5 (from 3*3) -->
+				<biomassCost base="60.0"/> <!-- %biomassCost base tier=8 factor=1 -->
+				<hitpointsMax base="11.0"/> <!-- %hitpointsMax base toughness=4 wounds=3+1 --> <!-- Converted Hp to 5 (from 3*3) -->
 				<meleeAccuracy base="12"/> <!-- %meleeAccuracy base weaponSkill=6 -->
 				<meleeAttacks base="3"/> <!-- Deathleaper has higher A than lictor +1 -->
 				<strengthDamage base="3"/> <!-- %strengthDamage base strength=6 -->
 				<moraleMax base="12"/> <!-- %moraleMax base leadership=10, compensated with skill-->
 				<influenceUpkeep base="6.0"/> <!-- %influenceUpkeep base tier=7 factor=2 -->
-				<influenceCost base="120.0"/> <!-- %influenceCost base tier=7 factor=2 -->
+				<influenceCost base="80.0"/> <!-- %influenceCost base tier=7 factor=2 -->
 				<movementMax base="3"/>
 				<itemSlots base="6"/>
 				<levelMax base="9"/>
