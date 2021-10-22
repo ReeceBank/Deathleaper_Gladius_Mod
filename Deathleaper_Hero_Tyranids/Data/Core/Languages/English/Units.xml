@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
 	<entry name="Tyranids/Deathleaper" value="Deathleaper"/>
-	<entry name="Tyranids/DeathleaperDescription" value="Stealth hero unit"/>
-	<entry name="Tyranids/DeathleaperFlavor value="The Deathleaper is a unique Lictor created by Hive Fleet Leviathan as the ultimate Tyranid weapon of terror. Its goal is to undermine the enemy's morale, spread anxiety and confusion, and break the enemy's will to oppose the Tyranid swarm."/>
+	<entry name="Tyranids/DeathleaperDescription" value="Assassin hero that specialises in information gathering, ambush, and manipulation"/>
+	<entry name="Tyranids/DeathleaperFlavor" value="The Deathleaper is a unique Lictor created by Hive Fleet Leviathan as the ultimate Tyranid weapon of terror. Its goal is to undermine the enemy's morale, spread anxiety and confusion, and break the enemy's will to oppose the Tyranid swarm."/>
 </language>
