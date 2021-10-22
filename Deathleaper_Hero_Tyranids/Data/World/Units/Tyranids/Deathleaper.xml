@@ -177,6 +177,9 @@
 					<conditions>
 						<unit>
 							<enemy/>
+							<noTrait name="AndTheyShallKnowNoFear"/> <!-- in the lore spacemarines are deplayed to deal with deathleapers/lictors -->
+							<!-- noTrait name="Fearless" manipulates you, not makes you afraid -->
+							<!-- noTrait name="Zealot" the OG target was a religious leader -->
 						</unit>
 					</conditions>
 					<areas>
