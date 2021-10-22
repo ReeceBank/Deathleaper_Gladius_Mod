@@ -115,7 +115,26 @@
 			</beginTargets>
 		</genericUnitAbility>
 		<!-- Suprise ambush ability -->
-		
+		<genericUnitAbility name="Tyranids/SupriseAmbush" 
+				passive="1"
+				rank="-1"
+				rankMax="2">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="Tyranids/SupriseAmbush"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
 		<!-- Mind eater ability -->
 		
 		<!-- Ult ability -->
